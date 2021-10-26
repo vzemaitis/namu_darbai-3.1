@@ -1,26 +1,40 @@
 body {
-    margin: 5px;
+    margin: 1px;
 }
 
 header {
     padding: 80px;
     text-align: center;
-    background-color: black;
     color: white;
+    background-image: url("https://wallpaperaccess.com/full/1216364.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 50px;
+}
+
+div {
+    width: 100%;
+    height: 600px;
+}
+
+div img {
+    width: 100%;
+    height: 100%;
+    background-color: #aaa;
 }
 
 nav {
-    background-color: #333;
+    background-color: white;
     overflow: hidden;
+    
 }
 
 nav a {
-float: left;
-color: white;
+float: right;
+color: black;
 text-align: center;
 padding: 14px 20px;
 text-decoration: none;
@@ -46,19 +60,8 @@ main {
     padding: 20px;
 }
 
-div img {
-    width: 100%;
-    height: 210px;
-    background-color: #aaa;
-}
-
 footer {
     text-align: center;
     background-color: #ddd;
     padding:  5px;
-}
-
-div {
-    width: 85%;
-    height: 200px;
 }
