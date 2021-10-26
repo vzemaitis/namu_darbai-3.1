@@ -42,7 +42,7 @@ section {
 }
 
 section  h2 {
-    text-align: center;
+    
 }
 
 aside {
@@ -57,12 +57,6 @@ main {
     background-color: #468ac9;
 }
 
-footer {
-    text-align: center;
-    background-color: #ddd;
-    padding:  5px;
-    height: 250px;
-}
 
 div img {
     width: 200px;
