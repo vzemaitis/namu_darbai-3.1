@@ -30,6 +30,11 @@ header {
     background-position: center;
 }
 
+button {
+    background-color: #DB545A;
+    color: white;
+}
+
 header h1 {
     font-size: 50px;
     text-align: center;
