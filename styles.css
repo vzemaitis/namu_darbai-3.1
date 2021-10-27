@@ -36,13 +36,9 @@ header h1 {
     align-items: center;
 }
 
-section {
+section.upper {
     display: flex;
     flex-wrap: wrap;
-}
-
-section  h2 {
-    
 }
 
 aside {
@@ -57,11 +53,30 @@ main {
     background-color: #468ac9;
 }
 
+section.lower {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-div img {
-    width: 200px;
-    height: 200px;
-    align-items: left;
+
+div.image {
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 50%;
+    height: 300px;
+    flex: 50%;
+    
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+div.second {
+    padding: 20px;
+    text-align: center;
+    flex: 50%;
 }
 
 @media screen and (max-width: 700px) {
